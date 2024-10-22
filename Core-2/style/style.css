@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+/*Encabezado de pagina*/
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(41, 41, 41);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    color: white;
+
+}
+/*Cuerpo de pagina queda como tarea practicar con etiqueta main*/
+.pagebody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    margin: 0;
+}
+.left  {
+    height: 100%;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    height: 100%;
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/*publicacion estructura ajustable a texto*/
+.pub {
+    border-style: solid;
+    border-color: black;
+    width: 95%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: visible;
+    background-color: aliceblue;
+}
+/*principio y vista de usuario*/
+.user {
+    width: 80%;
+    height: auto;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.userimage {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.username {
+    margin-top: 20px;
+}
+/*Estilo de letras margenes y botones*/
+h1 {
+    margin: 10px;
+}
+p {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.like {
+    margin: 15px;
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*Preguntar como evitar esto en el codigo POR FAVOR*/
+.megusta {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: rgb(160, 160, 73);
+    margin-bottom: 10px;
+}
+.megusta:hover {
+    background-color: rgb(228, 228, 135);
+    
+}
+.megusta1 {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: rgb(160, 160, 73);
+    margin-bottom: 10px;
+}
+.megusta1:hover {
+    background-color: rgb(228, 228, 135);
+    
+}
+.megusta2 {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: rgb(160, 160, 73);
+    margin-bottom: 10px;
+}
+.megusta2:hover {
+    background-color: rgb(228, 228, 135);
+    
+}
+.megusta3 {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: rgb(160, 160, 73);
+    margin-bottom: 10px;
+}
+.megusta3:hover {
+    background-color: rgb(228, 228, 135);
+    
+}
